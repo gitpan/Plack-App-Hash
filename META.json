@@ -1,0 +1,55 @@
+{
+   "abstract" : "Serve up the contents of a hash as a website",
+   "author" : [
+      "Aristotle Pagaltzis <pagaltzis@gmx.de>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300023, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Plack-App-Hash",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Array::RefElem" : "0",
+            "JSON::XS" : "0",
+            "Plack::Component" : "0",
+            "Plack::Util" : "0",
+            "Plack::Util::Accessor" : "0",
+            "parent" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Find" : "0",
+            "File::Temp" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/ap/Plack-App-Hash/issues"
+      },
+      "homepage" : "http://github.com/ap/Plack-App-Hash",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ap/Plack-App-Hash"
+      }
+   },
+   "version" : "0.001"
+}
+
