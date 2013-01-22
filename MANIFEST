@@ -6,6 +6,7 @@ META.json
 META.yml
 Makefile.PL
 README
+app.psgi
 dist.ini
 lib/Plack/App/Hash.pm
 t/00-compile.t
